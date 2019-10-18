@@ -1,0 +1,39 @@
+<h1 class='center'>Pokémons</h1>
+<div class='container'>
+    <div class="row">
+        <h3>Mon équipe de combat :</h3>
+        <div *ngFor='let pokemon of equipe' class="col s6 m4">
+                <div class="card horizontal" pkmnBorderCard="skyblue">
+                        <div class="card-image">
+                            <img [src]="pokemon.picture">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <p>{{ pokemon.id }}. {{ pokemon.name }}</p>
+                                <p><small>{{ pokemon.created | date: "dd/MM/yyyy" }}</small></p>
+                                <p><small>{{ pokemon.types }}</small></p>
+                                <button (click)="removePokemon(pokemon)"> Enlever de l'équipe </button>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    <hr/>
+    <div class="row">
+        <div *ngFor='let pokemon of pokemons' class="col s6 m4">
+            <div class="card horizontal" pkmnBorderCard="skyblue">
+                <div class="card-image">
+                    <img [src]="pokemon.picture">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>{{ pokemon.id }}. {{ pokemon.name }}</p>
+                        <p><small>{{ pokemon.created | date: "dd/MM/yyyy" }}</small></p>
+                        <p><small>{{ pokemon.types }}</small></p>
+                        <button (click)="selectPokemon(pokemon); addPokemon(pokemon)"> Ajouter à l'équipe </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
