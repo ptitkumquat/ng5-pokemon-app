@@ -23,7 +23,7 @@
     <div class="row">
         <div *ngFor='let pokemon of pokemons' class="col s6 m4">
             <div class="card horizontal" pkmnBorderCard="skyblue" (click)="detailPokemon(pokemon)">
-                <div class="card-image" (click)="detailPokemon(pokemon)">
+                <div class="card-image">
                     <img [src]="pokemon.picture">
                 </div>
                 <div class="card-stacked">

@@ -51,6 +51,12 @@ export class PokemonTypeColorPipe implements PipeTransform {
             case 'Sol':
                 color = 'brown lighten-1';
                 break;
+            case 'Acier':
+                color = ' blue-grey lighten-4';
+                break;
+            case 'Roche':
+                color = 'brown lighten-3';
+                break;
             default:
                 color = 'grey';
                 break;

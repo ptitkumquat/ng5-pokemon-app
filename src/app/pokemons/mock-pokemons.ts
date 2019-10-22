@@ -472,8 +472,8 @@ export const POKEMONS: Pokemon[] = [
 	{
 		id: 53,
 		name: "Persian",
-		hp: 17,
-		cp: 8,
+		hp: 266,
+		cp: 52,
 		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/053.png",
 		types: ["Normal", "Psy"],
 		created: new Date()
@@ -619,7 +619,7 @@ export const POKEMONS: Pokemon[] = [
 		hp: 17,
 		cp: 4,
 		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/069.png",
-		types: ["Plante"],
+		types: ["Plante", "Poison"],
 		created: new Date()
 	},
 	{
@@ -628,7 +628,7 @@ export const POKEMONS: Pokemon[] = [
 		hp: 117,
 		cp: 19,
 		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/070.png",
-		types: ["Plante"],
+		types: ["Plante", "Poison"],
 		created: new Date()
 	},
 	{
@@ -637,7 +637,106 @@ export const POKEMONS: Pokemon[] = [
 		hp: 301,
 		cp: 53,
 		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/071.png",
-		types: ["Plante"],
+		types: ["Plante", "Poison"],
+		created: new Date()
+	},
+	{
+		id: 72,
+		name: "Tentacool",
+		hp: 23,
+		cp: 6,
+		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/072.png",
+		types: ["Eau", "Poison"],
+		created: new Date()
+	},
+	{
+		id: 73,
+		name: "Tentacruel",
+		hp: 301,
+		cp: 53,
+		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/073.png",
+		types: ["Eau","Poison"],
+		created: new Date()
+	},
+	{
+		id: 74,
+		name: "Racaillou",
+		hp: 29,
+		cp: 5,
+		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/074.png",
+		types: ["Roche", "Sol"],
+		created: new Date()
+	},
+	{
+		id: 75,
+		name: "Gravalanch",
+		hp: 223,
+		cp: 34,
+		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/075.png",
+		types: ["Roche", "Sol"],
+		created: new Date()
+	},
+	{
+		id: 76,
+		name: "Grolem",
+		hp: 341,
+		cp: 68,
+		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/076.png",
+		types: ["Roche", "Sol"],
+		created: new Date()
+	},
+	{
+		id: 77,
+		name: "Ponyta",
+		hp: 31,
+		cp: 8,
+		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/077.png",
+		types: ["Feu"],
+		created: new Date()
+	},
+	{
+		id: 78,
+		name: "Galopa",
+		hp: 268,
+		cp: 61,
+		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/078.png",
+		types: ["Feu"],
+		created: new Date()
+	},
+	{
+		id: 79,
+		name: "Ramoloss",
+		hp: 35,
+		cp: 6,
+		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/079.png",
+		types: ["Eau", "Psy"],
+		created: new Date()
+	},
+	{
+		id: 80,
+		name: "Flagadoss",
+		hp: 287,
+		cp: 68,
+		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/080.png",
+		types: ["Eau", "Psy"],
+		created: new Date()
+	},
+	{
+		id: 81,
+		name: "Magneti",
+		hp: 28,
+		cp: 7,
+		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/081.png",
+		types: ["Electrik", "Acier"],
+		created: new Date()
+	},
+	{
+		id: 82,
+		name: "Magneton",
+		hp: 257,
+		cp: 70,
+		picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/082.png",
+		types: ["Electrik", "Acier"],
 		created: new Date()
 	}
 ];
