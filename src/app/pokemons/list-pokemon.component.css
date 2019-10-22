@@ -1,0 +1,24 @@
+button{
+    cursor: pointer;
+    border: solid 1px rgb(16, 78, 139);
+    border-radius: 15px;
+    background-color: rgb(47, 154, 204);
+    color: rgb(245, 245, 245);
+    margin: 3px;
+    padding: 4px;   
+    margin-top: 30px;
+}
+button:hover{
+    border: ridge 3px rgb(207, 236, 255);
+    background-color: white;
+    color: rgb(47, 154, 204);
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(201, 236, 250);
+}
+.type-border{
+    border: solid 1px rgba(11, 12, 12, 0.5);
+}

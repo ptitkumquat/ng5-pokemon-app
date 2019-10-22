@@ -8,6 +8,7 @@ import { PokemonEquipeService } from './pokemon-equipe.service';
 @Component({
   selector: 'list-pokemon',
   templateUrl: './app/pokemons/list-pokemon.component.html',
+  styleUrls: ['./app/pokemons/list-pokemon.component.css']
 })
 export class ListPokemonComponent implements OnInit {
 
@@ -38,7 +39,8 @@ export class ListPokemonComponent implements OnInit {
         this.pokemonEquipeService.selectPokemon(pokemon);
       }
 
-      addPokemon(pokemon: Pokemon){
+      addPokemon(pokemon: Pokemon, event:any){
+        event.stopPropagation();
         this.pokemonEquipeService.addPokemon(pokemon);
       }
 

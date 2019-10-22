@@ -33,7 +33,8 @@ var ListPokemonComponent = /** @class */ (function () {
     ListPokemonComponent.prototype.selectPokemon = function (pokemon) {
         this.pokemonEquipeService.selectPokemon(pokemon);
     };
-    ListPokemonComponent.prototype.addPokemon = function (pokemon) {
+    ListPokemonComponent.prototype.addPokemon = function (pokemon, event) {
+        event.stopPropagation();
         this.pokemonEquipeService.addPokemon(pokemon);
     };
     ListPokemonComponent.prototype.removePokemon = function (pokemon) {
@@ -43,6 +44,7 @@ var ListPokemonComponent = /** @class */ (function () {
         core_1.Component({
             selector: 'list-pokemon',
             templateUrl: './app/pokemons/list-pokemon.component.html',
+            styleUrls: ['./app/pokemons/list-pokemon.component.css']
         }),
         __metadata("design:paramtypes", [router_1.Router,
             pokemons_service_1.PokemonsService,

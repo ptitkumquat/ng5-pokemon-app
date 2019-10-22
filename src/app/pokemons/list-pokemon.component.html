@@ -2,7 +2,7 @@
     <div class="row">
         <h3 class="center">Mon équipe de combat :</h3>
         <div *ngFor='let pokemon of equipe' class="col s6 m4">
-                <div class="card horizontal" pkmnBorderCard="teal">
+                <div class="card horizontal" pkmnBorderCard="teal" (click)="detailPokemon(pokemon)">
                         <div class="card-image">
                             <img [src]="pokemon.picture">
                         </div>
@@ -12,7 +12,7 @@
                                 <p><small>{{ pokemon.created | date: "dd/MM/yyyy" }}</small></p>
                                 <span *ngFor="let type of pokemon.types" class="{{ type | pokemonTypeColor }}"> {{ type }}</span>
                                 <button (click)="removePokemon(pokemon)"> Enlever de l'équipe </button>
-                                <button (click)="detailPokemon(pokemon)"> Détails </button>
+                                <!-- <button (click)="detailPokemon(pokemon)"> Détails </button> -->
                             </div>
                         </div>
                     </div>
@@ -22,17 +22,17 @@
     <h1 class='center'>Pokémons</h1>
     <div class="row">
         <div *ngFor='let pokemon of pokemons' class="col s6 m4">
-            <div class="card horizontal" pkmnBorderCard="skyblue">
-                <div class="card-image">
+            <div class="card horizontal" pkmnBorderCard="skyblue" (click)="detailPokemon(pokemon)">
+                <div class="card-image" (click)="detailPokemon(pokemon)">
                     <img [src]="pokemon.picture">
                 </div>
                 <div class="card-stacked">
                     <div class="card-content">
                         <p>{{ pokemon.id }}. {{ pokemon.name }}</p>
                         <p><small>{{ pokemon.created | date: "dd/MM/yyyy" }}</small></p>
-                        <span *ngFor="let type of pokemon.types" class="{{ type | pokemonTypeColor }}"> {{ type }}</span>
-                        <button (click)="selectPokemon(pokemon); addPokemon(pokemon)"> Ajouter à l'équipe </button>
-                        <button (click)="detailPokemon(pokemon)"> Détails </button>
+                        <span *ngFor="let type of pokemon.types" class="{{ type | pokemonTypeColor }} type-border"> {{ type }}</span>
+                        <button (click)="selectPokemon(pokemon); addPokemon(pokemon, $event)"> Ajouter à l'équipe </button>
+                        <!-- <button (click)="detailPokemon(pokemon)"> Détails </button> -->
                     </div>
                 </div>
             </div>
