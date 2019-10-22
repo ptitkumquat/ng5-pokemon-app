@@ -7,16 +7,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = /** @class */ (function () {
-    function AppComponent() {
+var PokemonsService = /** @class */ (function () {
+    function PokemonsService() {
     }
-    AppComponent = __decorate([
-        core_1.Component({
-            selector: 'pokemon-app',
-            templateUrl: './app/app.component.html',
-        })
-    ], AppComponent);
-    return AppComponent;
+    PokemonsService = __decorate([
+        core_1.Injectable()
+    ], PokemonsService);
+    return PokemonsService;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.PokemonsService = PokemonsService;
+//# sourceMappingURL=pokemon.service.js.map
