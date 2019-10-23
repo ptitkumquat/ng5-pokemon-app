@@ -37,7 +37,8 @@ var ListPokemonComponent = /** @class */ (function () {
         event.stopPropagation();
         this.pokemonEquipeService.addPokemon(pokemon);
     };
-    ListPokemonComponent.prototype.removePokemon = function (pokemon) {
+    ListPokemonComponent.prototype.removePokemon = function (pokemon, event) {
+        event.stopPropagation();
         this.pokemonEquipeService.removePokemon(pokemon);
     };
     ListPokemonComponent = __decorate([

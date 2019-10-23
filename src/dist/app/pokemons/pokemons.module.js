@@ -15,6 +15,8 @@ var border_card_directive_1 = require("./border-card.directive");
 var pokemon_type_color_pipe_1 = require("./pokemon-type-color.pipe");
 var pokemons_service_1 = require("./pokemons.service");
 var pokemon_equipe_service_1 = require("./pokemon-equipe.service");
+var fightTeam_component_1 = require("./combat/fightTeam.component");
+var mock_types_1 = require("./mock-types");
 var PokemonsModule = /** @class */ (function () {
     function PokemonsModule() {
     }
@@ -28,11 +30,13 @@ var PokemonsModule = /** @class */ (function () {
                 list_pokemon_component_1.ListPokemonComponent,
                 detail_pokemon_component_1.DetailPokemonComponent,
                 border_card_directive_1.BorderCardDirective,
-                pokemon_type_color_pipe_1.PokemonTypeColorPipe
+                pokemon_type_color_pipe_1.PokemonTypeColorPipe,
+                fightTeam_component_1.FightTeamComponent
             ],
             providers: [
                 pokemons_service_1.PokemonsService,
-                pokemon_equipe_service_1.PokemonEquipeService
+                pokemon_equipe_service_1.PokemonEquipeService,
+                mock_types_1.TypesService
             ]
         })
     ], PokemonsModule);

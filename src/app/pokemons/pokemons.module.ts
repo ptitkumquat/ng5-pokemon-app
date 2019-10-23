@@ -8,6 +8,8 @@ import { BorderCardDirective } from './border-card.directive';
 import { PokemonTypeColorPipe } from './pokemon-type-color.pipe';
 import { PokemonsService } from './pokemons.service';
 import { PokemonEquipeService } from './pokemon-equipe.service';
+import { FightTeamComponent } from './combat/fightTeam.component';
+import { TypesService } from './mock-types';
 
 @NgModule({
 	imports: [
@@ -18,11 +20,13 @@ import { PokemonEquipeService } from './pokemon-equipe.service';
 		ListPokemonComponent,
 		DetailPokemonComponent,
 		BorderCardDirective,
-		PokemonTypeColorPipe
+		PokemonTypeColorPipe,
+		FightTeamComponent
 	],
 	providers: [ 
 		PokemonsService,
-		PokemonEquipeService
+		PokemonEquipeService,
+		TypesService
 	]
 })
 export class PokemonsModule { }

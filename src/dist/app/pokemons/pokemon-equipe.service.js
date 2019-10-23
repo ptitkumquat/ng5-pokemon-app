@@ -29,11 +29,22 @@ var PokemonEquipeService = /** @class */ (function () {
         else {
             alert("TON EQUIPE EST DEJA FULL !!!!");
         }
-        console.log(this.equipe);
     };
     PokemonEquipeService.prototype.removePokemon = function (pokemon) {
         var pokemonIndex = this.equipe.indexOf(pokemon);
         this.equipe.splice(pokemonIndex, 1);
+    };
+    PokemonEquipeService.prototype.createRandomEquip = function () {
+        this.equipe.splice(0);
+        for (var i = 0; i < 6; i++) {
+            this.generatePokemon();
+        }
+    };
+    PokemonEquipeService.prototype.generatePokemon = function () {
+        do {
+            var id = Math.floor(Math.random() * 150 + 1);
+        } while (this.equipe.find(function (pokemon) { return pokemon.id === id; }));
+        this.addPokemon(this.pokemonsService.getPokemon(id));
     };
     PokemonEquipeService = __decorate([
         core_1.Injectable(),

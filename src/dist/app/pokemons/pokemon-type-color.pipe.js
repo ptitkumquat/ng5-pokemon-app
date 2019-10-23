@@ -61,6 +61,15 @@ var PokemonTypeColorPipe = /** @class */ (function () {
             case 'Roche':
                 color = 'brown lighten-3';
                 break;
+            case 'Glace':
+                color = 'cyan accent-1';
+                break;
+            case 'Spectre':
+                color = 'deep-purple accent-4';
+                break;
+            case 'Dragon':
+                color = 'blue accent-2';
+                break;
             default:
                 color = 'grey';
                 break;

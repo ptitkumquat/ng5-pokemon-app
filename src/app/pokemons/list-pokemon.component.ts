@@ -15,14 +15,14 @@ export class ListPokemonComponent implements OnInit {
 
   private pokemons: Pokemon[];
   private title: string = "Pokémons";
-  private equipe: Pokemon[]=[];
+  private equipe: Pokemon[] = [];
 
 
   constructor(
-    private router: Router, 
+    private router: Router,
     private pokemonsService: PokemonsService,
     private pokemonEquipeService: PokemonEquipeService
-    ){}
+  ) { }
 
   ngOnInit() {
     this.pokemons = this.pokemonsService.getPokemons();
@@ -30,39 +30,25 @@ export class ListPokemonComponent implements OnInit {
   }
 
   detailPokemon(pokemon: Pokemon) {
-      console.log("details du pokémon "+ pokemon.name);
-      let link = ['/pokemon', pokemon.id];
-      this.router.navigate(link);
+    console.log("details du pokémon " + pokemon.name);
+    let link = ['/pokemon', pokemon.id];
+    this.router.navigate(link);
   }
 
-      selectPokemon(pokemon: Pokemon){
-        this.pokemonEquipeService.selectPokemon(pokemon);
-      }
+  selectPokemon(pokemon: Pokemon) {
+    this.pokemonEquipeService.selectPokemon(pokemon);
+  }
 
-      addPokemon(pokemon: Pokemon, event:any){
-        event.stopPropagation();
-        this.pokemonEquipeService.addPokemon(pokemon);
-      }
+  addPokemon(pokemon: Pokemon, event: any) {
+    event.stopPropagation();
+    this.pokemonEquipeService.addPokemon(pokemon);
+  }
 
-      removePokemon(pokemon: Pokemon){
-        this.pokemonEquipeService.removePokemon(pokemon);
-      }
-  // selectPokemon(pokemon: Pokemon) {
-  //   alert("JE TE CHOISIS, " + pokemon.name.toUpperCase() + " !!!!!!!");
-  // }
+  removePokemon(pokemon: Pokemon, event: any) {
+    event.stopPropagation();
+    this.pokemonEquipeService.removePokemon(pokemon);
+  }
 
-  // addPokemon(pokemon: Pokemon) {
-  //   if (this.equipe.length < 6) {
-  //     this.equipe.push(pokemon);
-  //   }
-  //   else {
-  //     alert("TON EQUIPE EST DEJA FULL !!!!");
-  //   }
-  //   console.log(this.equipe);
-  // }
+ 
 
-  // removePokemon(pokemon: Pokemon){
-  //   let pokemonIndex = this.equipe.indexOf(pokemon);
-  //   this.equipe.splice(pokemonIndex, 1);
-  // }
 }

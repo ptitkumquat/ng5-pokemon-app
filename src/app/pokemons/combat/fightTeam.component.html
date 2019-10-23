@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="row">
+        <button class="fight" (click)="fullCombat()">
+
+            Combat !
+
+        </button>
+        <button class="fight" (click)="beginFight()">
+            New combat
+        </button>
+    </div>
+    <div class="row">
+        <h3 class="center">Mon équipe de combat :</h3>
+        <p *ngIf="winner == equipe" class="looser"> YOU LOOSE </p>
+        <p *ngIf="winner == equipeAdv" class="winner"> YOU WIN ! </p>
+        <div *ngFor='let pokemon of equipe' class="col s6 m4">
+            <div class="card horizontal" pkmnBorderCard="teal">
+                <div class="card-image">
+                    <img [src]="pokemon.picture">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>{{ pokemon.id }}. {{ pokemon.name }}</p>
+                        <div class="progress">
+                            <div class="determinate" [ngStyle]="{
+                                    'width': progress(pokemon) }"></div>
+                        </div>
+                        <span *ngFor="let type of pokemon.types" class="{{ type | pokemonTypeColor }}">
+                            {{ type }}</span>
+                        <button *ngIf="compteur !== 0" (click)="rerollPokemon(pokemon, $event)" class="removeTeam"> Re
+                            Roll le Pokémon
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <h3 class="center">Equipe adverse</h3>
+        <div *ngFor='let pokemon of equipeAdv' class="col s6 m4">
+            <div class="card horizontal" pkmnBorderCard="teal" (click)="detailPokemon(pokemon)">
+                <div class="card-image">
+                    <img [src]="pokemon.picture">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>{{ pokemon.id }}. {{ pokemon.name }}</p>
+                        <div class="progress">
+                                <div class="determinate" [ngStyle]="{
+                                        'width': progress(pokemon) }"></div>
+                            </div>
+                        <span *ngFor="let type of pokemon.types" class="{{ type | pokemonTypeColor }}">
+                            {{ type }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

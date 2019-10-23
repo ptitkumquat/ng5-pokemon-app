@@ -6,7 +6,7 @@ button{
     color: rgb(245, 245, 245);
     margin: 3px;
     padding: 8px;   
-    margin-top: 20px;
+    margin-top:15px;
 }
 button:hover{
     border: ridge -3px rgb(207, 236, 255);
@@ -34,4 +34,26 @@ button:hover{
     color : black;
     font-size: 1.2em;
     font-weight: bolder;
+}
+.looser{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color : black;
+    background-color: rgb(167, 64, 64);
+    border: solid 4px rgb(71, 12, 12);
+    border-radius: 15px;
+    width: 20%;
+}
+.winner{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color : black;
+    background-color: rgb(148, 238, 106);
+    border: solid 4px rgb(10, 82, 28);
+    border-radius: 15px;
+    width: 20%;
 }

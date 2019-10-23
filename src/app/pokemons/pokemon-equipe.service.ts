@@ -25,11 +25,25 @@ selectPokemon(pokemon: Pokemon) {
     else {
       alert("TON EQUIPE EST DEJA FULL !!!!");
     }
-    console.log(this.equipe);
   }
 
   removePokemon(pokemon: Pokemon){
     let pokemonIndex = this.equipe.indexOf(pokemon);
     this.equipe.splice(pokemonIndex, 1);
   }
+
+  createRandomEquip(){
+    this.equipe.splice(0);
+    for(let i=0; i<6 ; i++){
+     this.generatePokemon();
+    }
+  }
+
+    generatePokemon(){
+      do{
+        var id = Math.floor(Math.random()*150+1);
+      } while(this.equipe.find((pokemon) => pokemon.id === id))
+      this.addPokemon(this.pokemonsService.getPokemon(id));
+    }
+  
 }
