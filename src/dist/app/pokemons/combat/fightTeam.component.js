@@ -78,25 +78,42 @@ var FightTeamComponent = /** @class */ (function () {
         this.compteur -= 1;
     };
     FightTeamComponent.prototype.combat = function (p1, p2) {
-        if (this.isFirst(p1, p2)) {
-            this.attack(p1, p2);
-        }
-        while (p1.hp > 0 && p2.hp > 0) {
-            this.attack(p2, p1);
-            if (p1.hp > 0)
-                this.attack(p1, p2);
-        }
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, this.sleep(500)];
+                    case 1:
+                        _a.sent();
+                        if (!this.isFirst(p1, p2)) return [3 /*break*/, 3];
+                        return [4 /*yield*/, this.attack(p1, p2)];
+                    case 2:
+                        _a.sent();
+                        _a.label = 3;
+                    case 3:
+                        if (!(p1.hp > 0 && p2.hp > 0)) return [3 /*break*/, 7];
+                        return [4 /*yield*/, this.attack(p2, p1)];
+                    case 4:
+                        _a.sent();
+                        if (!(p1.hp > 0)) return [3 /*break*/, 6];
+                        return [4 /*yield*/, this.attack(p1, p2)];
+                    case 5:
+                        _a.sent();
+                        _a.label = 6;
+                    case 6: return [3 /*break*/, 3];
+                    case 7: return [2 /*return*/];
+                }
+            });
+        });
     };
     FightTeamComponent.prototype.attack = function (attaquant, defenseur) {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0:
-                        defenseur.hp -= attaquant.cp * this.getCoeffType(attaquant, defenseur) / (1 + defenseur.def / 25);
-                        console.log(defenseur.hp);
-                        return [4 /*yield*/, this.sleep(2000)];
+                    case 0: return [4 /*yield*/, this.sleep(500)];
                     case 1:
                         _a.sent();
+                        defenseur.hp -= attaquant.cp * this.getCoeffType(attaquant, defenseur) / (1 + defenseur.def / 25);
+                        console.log(defenseur.hp);
                         return [2 /*return*/];
                 }
             });
@@ -121,10 +138,9 @@ var FightTeamComponent = /** @class */ (function () {
                         _a.label = 1;
                     case 1:
                         if (!(this.equipe.length > 0 && this.equipeAdv.length > 0)) return [3 /*break*/, 3];
-                        return [4 /*yield*/, this.sleep(2000)];
+                        return [4 /*yield*/, this.combat(this.equipe[0], this.equipeAdv[0])];
                     case 2:
                         _a.sent();
-                        this.combat(this.equipe[0], this.equipeAdv[0]);
                         this.removeKo();
                         return [3 /*break*/, 1];
                     case 3:
