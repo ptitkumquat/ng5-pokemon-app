@@ -51,21 +51,22 @@ export class FightTeamComponent implements OnInit {
     this.compteur -= 1;
   }
 
-  combat(p1: Pokemon, p2: Pokemon) {
+  async combat(p1: Pokemon, p2: Pokemon) {
+    await this.sleep(500);
     if (this.isFirst(p1, p2)) {
-      this.attack(p1, p2);
+      await this.attack(p1, p2);
     }
     while (p1.hp > 0 && p2.hp > 0) {
-      this.attack(p2, p1);
+      await this.attack(p2, p1);
       if (p1.hp > 0)
-        this.attack(p1, p2);
+        await this.attack(p1, p2);
     }
   }
 
   async attack(attaquant: Pokemon, defenseur: Pokemon) {
+    await this.sleep(500);
     defenseur.hp -= attaquant.cp * this.getCoeffType(attaquant, defenseur) / (1 + defenseur.def / 25);
     console.log(defenseur.hp);
-    await this.sleep(2000);
   }
 
   getCoeffType(p1: Pokemon, p2: Pokemon): number {
@@ -81,8 +82,7 @@ export class FightTeamComponent implements OnInit {
   async fullCombat() {
     this.compteur = 0;
     while (this.equipe.length > 0 && this.equipeAdv.length > 0) {
-      await this.sleep(2000);
-      this.combat(this.equipe[0], this.equipeAdv[0]);
+      await this.combat(this.equipe[0], this.equipeAdv[0]);
       this.removeKo();
     }
     if (this.equipe.length == 0) {
