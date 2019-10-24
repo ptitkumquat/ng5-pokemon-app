@@ -45,12 +45,14 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
+var router_1 = require("@angular/router");
 var pokemon_equipe_service_1 = require("../pokemon-equipe.service");
 var pokemons_service_1 = require("../pokemons.service");
 var mock_types_1 = require("../mock-types");
 var type_enum_1 = require("../type-enum");
 var FightTeamComponent = /** @class */ (function () {
-    function FightTeamComponent(pokemonEquipeService, pokemonEquipeAdvService, pokemonService, mockType) {
+    function FightTeamComponent(router, pokemonEquipeService, pokemonEquipeAdvService, pokemonService, mockType) {
+        this.router = router;
         this.pokemonEquipeService = pokemonEquipeService;
         this.pokemonEquipeAdvService = pokemonEquipeAdvService;
         this.pokemonService = pokemonService;
@@ -150,13 +152,19 @@ var FightTeamComponent = /** @class */ (function () {
         var max = this.pokemonService.getPokemon(pokemon.id).hpMax;
         return pokemon.hp / max * 100 + '%';
     };
+    FightTeamComponent.prototype.detailPokemon = function (pokemon) {
+        console.log("details du pokémon " + pokemon.name);
+        var link = ['/pokemon', pokemon.id];
+        this.router.navigate(link);
+    };
     FightTeamComponent = __decorate([
         core_1.Component({
             selector: 'fight-team',
             templateUrl: './app/pokemons/combat/fightTeam.component.html',
             styleUrls: ['./app/pokemons/combat/fightTeam.component.css']
         }),
-        __metadata("design:paramtypes", [pokemon_equipe_service_1.PokemonEquipeService,
+        __metadata("design:paramtypes", [router_1.Router,
+            pokemon_equipe_service_1.PokemonEquipeService,
             pokemon_equipe_service_1.PokemonEquipeService,
             pokemons_service_1.PokemonsService,
             mock_types_1.TypesService])

@@ -15,7 +15,7 @@
         <p *ngIf="winner == equipe" class="looser"> YOU LOOSE </p>
         <p *ngIf="winner == equipeAdv" class="winner"> YOU WIN ! </p>
         <div *ngFor='let pokemon of equipe' class="col s6 m4">
-            <div class="card horizontal" pkmnBorderCard="teal">
+            <div class="card horizontal" pkmnBorderCard="teal" (click)="detailPokemon(pokemon)">
                 <div class="card-image">
                     <img [src]="pokemon.picture">
                 </div>

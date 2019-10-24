@@ -24,6 +24,7 @@ export class FightTeamComponent implements OnInit {
   private pokemon: Pokemon;
 
   constructor(
+    private router: Router,
     private pokemonEquipeService: PokemonEquipeService,
     private pokemonEquipeAdvService: PokemonEquipeService,
     private pokemonService: PokemonsService,
@@ -108,6 +109,12 @@ export class FightTeamComponent implements OnInit {
   progress(pokemon: Pokemon): string {
     const max = this.pokemonService.getPokemon(pokemon.id).hpMax;
     return pokemon.hp / max * 100 + '%';
+  }
+  
+  detailPokemon(pokemon: Pokemon) {
+    console.log("details du pokémon " + pokemon.name);
+    let link = ['/pokemon', pokemon.id];
+    this.router.navigate(link);
   }
 
 }

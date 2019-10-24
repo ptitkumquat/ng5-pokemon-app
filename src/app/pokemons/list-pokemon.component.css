@@ -35,3 +35,32 @@ button:hover{
     font-size: 1.2em;
     font-weight: bolder;
 }
+.mini{
+    width: 0%;
+    height: 0%
+}
+.date{
+    margin-bottom: 2%;
+}
+
+/* @media screen and(max-width: 500px){ */
+    /* .pasmini{
+        width: 0%;
+        height: 0%;
+    }
+    .mini{
+        width: 50%;
+        height: 50%;
+    }
+    button{
+        display : none;
+    }
+    .date{
+        display: none;
+    }
+    .type-border{
+        width:5%;
+        height: 5%;
+        font-size: 0px;
+    } */
+/*} */
