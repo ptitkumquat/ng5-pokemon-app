@@ -6,6 +6,7 @@ export class Pokemon {
     speed: number;
     name: string;
     picture: string;
+    miniature: string;
     types: Array<string>;
     created: Date;
     hpMax: number;

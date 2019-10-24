@@ -10,6 +10,7 @@ export const POKEMONS: Pokemon[] = [
     def: 49,
     speed: 45,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/001.png",
     types: ["Plante", "Poison"],
     created: new Date()
   },
@@ -22,6 +23,7 @@ export const POKEMONS: Pokemon[] = [
     def: 63,
     speed: 60,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/002.png",
     types: ["Plante", "Poison"],
     created: new Date()
   },
@@ -34,6 +36,7 @@ export const POKEMONS: Pokemon[] = [
     def: 83,
     speed: 80,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/003.png",
     types: ["Plante", "Poison"],
     created: new Date()
   },
@@ -46,6 +49,7 @@ export const POKEMONS: Pokemon[] = [
     def: 43,
     speed: 65,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/004.png",
     types: ["Feu"],
     created: new Date()
   },
@@ -58,6 +62,7 @@ export const POKEMONS: Pokemon[] = [
     def: 58,
     speed: 80,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/005.png",
     types: ["Feu"],
     created: new Date()
   },
@@ -70,6 +75,7 @@ export const POKEMONS: Pokemon[] = [
     def: 78,
     speed: 100,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/006.png",
     types: ["Vol", "Feu"],
     created: new Date()
   },
@@ -82,6 +88,7 @@ export const POKEMONS: Pokemon[] = [
     def: 65,
     speed: 43,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/007.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -94,6 +101,7 @@ export const POKEMONS: Pokemon[] = [
     def: 80,
     speed: 58,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/008.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -106,6 +114,7 @@ export const POKEMONS: Pokemon[] = [
     def: 100,
     speed: 78,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/009.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -118,6 +127,7 @@ export const POKEMONS: Pokemon[] = [
     def: 35,
     speed: 45,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/010.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/010.png",
     types: ["Insecte"],
     created: new Date()
   },
@@ -130,6 +140,7 @@ export const POKEMONS: Pokemon[] = [
     def: 55,
     speed: 30,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/011.png",
     types: ["Insecte"],
     created: new Date()
   },
@@ -142,6 +153,7 @@ export const POKEMONS: Pokemon[] = [
     def: 50,
     speed: 70,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/012.png",
     types: ["Insecte", "Poison"],
     created: new Date()
   },
@@ -154,6 +166,7 @@ export const POKEMONS: Pokemon[] = [
     def: 30,
     speed: 50,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/013.png",
     types: ["Insecte", "Poison"],
     created: new Date()
   },
@@ -166,6 +179,7 @@ export const POKEMONS: Pokemon[] = [
     def: 50,
     speed: 35,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/014.png",
     types: ["Insecte", "Poison"],
     created: new Date()
   },
@@ -178,6 +192,7 @@ export const POKEMONS: Pokemon[] = [
     def: 40,
     speed: 75,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/015.png",
     types: ["Insecte", "Poison"],
     created: new Date()
   },
@@ -190,6 +205,7 @@ export const POKEMONS: Pokemon[] = [
     def: 40,
     speed: 56,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/016.png",
     types: ["Normal", "Vol"],
     created: new Date()
   },
@@ -202,6 +218,7 @@ export const POKEMONS: Pokemon[] = [
     def: 55,
     speed: 71,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/017.png",
     types: ["Normal", "Vol"],
     created: new Date()
   },
@@ -214,6 +231,7 @@ export const POKEMONS: Pokemon[] = [
     def: 75,
     speed: 101,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/018.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/018.png",
     types: ["Normal", "Vol"],
     created: new Date()
   },
@@ -226,6 +244,7 @@ export const POKEMONS: Pokemon[] = [
     def: 35,
     speed: 72,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/019.png",
     types: ["Normal"],
     created: new Date()
   },
@@ -238,6 +257,7 @@ export const POKEMONS: Pokemon[] = [
     def: 60,
     speed: 97,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/020.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/020.png",
     types: ["Normal"],
     created: new Date()
   },
@@ -250,6 +270,7 @@ export const POKEMONS: Pokemon[] = [
     def: 30,
     speed: 70,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/021.png",
     types: ["Normal", "Vol"],
     created: new Date()
   },
@@ -262,6 +283,7 @@ export const POKEMONS: Pokemon[] = [
     def: 65,
     speed: 100,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/022.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/022.png",
     types: ["Normal", "Vol"],
     created: new Date()
   },
@@ -274,6 +296,7 @@ export const POKEMONS: Pokemon[] = [
     def: 44,
     speed: 55,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/023.png",
     types: ["Poison"],
     created: new Date()
   },
@@ -286,6 +309,7 @@ export const POKEMONS: Pokemon[] = [
     def: 69,
     speed: 80,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/024.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/024.png",
     types: ["Poison"],
     created: new Date()
   },
@@ -298,6 +322,7 @@ export const POKEMONS: Pokemon[] = [
     def: 40,
     speed: 90,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/025.png",
     types: ["Electrik"],
     created: new Date()
   },
@@ -310,6 +335,7 @@ export const POKEMONS: Pokemon[] = [
     def: 55,
     speed: 110,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/026.png",
     types: ["Electrik"],
     created: new Date()
   },
@@ -322,6 +348,7 @@ export const POKEMONS: Pokemon[] = [
     def: 85,
     speed: 40,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/027.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/027.png",
     types: ["Sol"],
     created: new Date()
   },
@@ -334,6 +361,7 @@ export const POKEMONS: Pokemon[] = [
     def: 110,
     speed: 65,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/028.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/028.png",
     types: ["Sol"],
     created: new Date()
   },
@@ -346,6 +374,7 @@ export const POKEMONS: Pokemon[] = [
     def: 52,
     speed: 41,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/029.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/029.png",
     types: ["Poison"],
     created: new Date()
   },
@@ -358,6 +387,7 @@ export const POKEMONS: Pokemon[] = [
     def: 67,
     speed: 56,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/030.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/030.png",
     types: ["Poison"],
     created: new Date()
   },
@@ -370,6 +400,7 @@ export const POKEMONS: Pokemon[] = [
     def: 87,
     speed: 76,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/031.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/031.png",
     types: ["Poison", "Sol"],
     created: new Date()
   },
@@ -382,6 +413,7 @@ export const POKEMONS: Pokemon[] = [
     def: 40,
     speed: 50,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/032.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/032.png",
     types: ["Poison"],
     created: new Date()
   },
@@ -394,6 +426,7 @@ export const POKEMONS: Pokemon[] = [
     def: 57,
     speed: 65,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/033.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/033.png",
     types: ["Poison"],
     created: new Date()
   },
@@ -406,6 +439,7 @@ export const POKEMONS: Pokemon[] = [
     def: 77,
     speed: 85,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/034.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/034.png",
     types: ["Poison", "Sol"],
     created: new Date()
   },
@@ -418,6 +452,7 @@ export const POKEMONS: Pokemon[] = [
     def: 48,
     speed: 35,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/035.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/035.png",
     types: ["Fée"],
     created: new Date()
   },
@@ -430,6 +465,7 @@ export const POKEMONS: Pokemon[] = [
     def: 73,
     speed: 60,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/036.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/036.png",
     types: ["Fée"],
     created: new Date()
   },
@@ -442,6 +478,7 @@ export const POKEMONS: Pokemon[] = [
     def: 40,
     speed: 65,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/037.png",
     types: ["Feu"],
     created: new Date()
   },
@@ -454,6 +491,7 @@ export const POKEMONS: Pokemon[] = [
     def: 75,
     speed: 100,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/038.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/038.png",
     types: ["Feu"],
     created: new Date()
   },
@@ -466,6 +504,7 @@ export const POKEMONS: Pokemon[] = [
     def: 20,
     speed: 20,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/039.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/039.png",
     types: ["Normal", "Fée"],
     created: new Date()
   },
@@ -478,6 +517,7 @@ export const POKEMONS: Pokemon[] = [
     def: 45,
     speed: 45,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/040.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/040.png",
     types: ["Normal", "Fée"],
     created: new Date()
   },
@@ -490,6 +530,7 @@ export const POKEMONS: Pokemon[] = [
     def: 35,
     speed: 55,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/041.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/041.png",
     types: ["Poison", "Vol"],
     created: new Date()
   },
@@ -502,6 +543,7 @@ export const POKEMONS: Pokemon[] = [
     def: 70,
     speed: 90,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/042.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/042.png",
     types: ["Poison", "Vol"],
     created: new Date()
   },
@@ -514,6 +556,7 @@ export const POKEMONS: Pokemon[] = [
     def: 55,
     speed: 30,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/043.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/043.png",
     types: ["Plante", "Poison"],
     created: new Date()
   },
@@ -526,6 +569,7 @@ export const POKEMONS: Pokemon[] = [
     def: 70,
     speed: 40,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/044.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/044.png",
     types: ["Plante", "Poison"],
     created: new Date()
   },
@@ -538,6 +582,7 @@ export const POKEMONS: Pokemon[] = [
     def: 85,
     speed: 50,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/045.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/045.png",
     types: ["Plante", "Poison"],
     created: new Date()
   },
@@ -550,6 +595,7 @@ export const POKEMONS: Pokemon[] = [
     def: 55,
     speed: 25,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/046.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/046.png",
     types: ["Plante", "Insecte"],
     created: new Date()
   },
@@ -562,6 +608,7 @@ export const POKEMONS: Pokemon[] = [
     def: 80,
     speed: 30,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/047.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/047.png",
     types: ["Plante", "Insecte"],
     created: new Date()
   },
@@ -574,6 +621,7 @@ export const POKEMONS: Pokemon[] = [
     def: 50,
     speed: 45,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/048.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/048.png",
     types: ["Insecte", "Poison"],
     created: new Date()
   },
@@ -586,6 +634,7 @@ export const POKEMONS: Pokemon[] = [
     def: 60,
     speed: 90,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/049.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/049.png",
     types: ["Insecte", "Poison"],
     created: new Date()
   },
@@ -598,6 +647,7 @@ export const POKEMONS: Pokemon[] = [
     def: 25,
     speed: 95,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/050.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/050.png",
     types: ["Sol"],
     created: new Date()
   },
@@ -610,6 +660,7 @@ export const POKEMONS: Pokemon[] = [
     def: 50,
     speed: 120,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/051.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/051.png",
     types: ["Sol"],
     created: new Date()
   },
@@ -622,6 +673,7 @@ export const POKEMONS: Pokemon[] = [
     def: 35,
     speed: 90,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/052.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/052.png",
     types: ["Normal"],
     created: new Date()
   },
@@ -634,6 +686,7 @@ export const POKEMONS: Pokemon[] = [
     def: 60,
     speed: 115,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/053.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/053.png",
     types: ["Normal"],
     created: new Date()
   },
@@ -646,6 +699,7 @@ export const POKEMONS: Pokemon[] = [
     def: 48,
     speed: 55,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/054.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/054.png",
     types: ["Eau", "Psy"],
     created: new Date()
   },
@@ -658,6 +712,7 @@ export const POKEMONS: Pokemon[] = [
     def: 78,
     speed: 85,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/055.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/055.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -670,6 +725,7 @@ export const POKEMONS: Pokemon[] = [
     def: 35,
     speed: 70,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/056.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/056.png",
     types: ["Combat"],
     created: new Date()
   },
@@ -682,6 +738,7 @@ export const POKEMONS: Pokemon[] = [
     def: 60,
     speed: 95,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/057.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/057.png",
     types: ["Combat"],
     created: new Date()
   },
@@ -694,6 +751,7 @@ export const POKEMONS: Pokemon[] = [
     def: 45,
     speed: 60,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/058.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/058.png",
     types: ["Feu"],
     created: new Date()
   },
@@ -706,6 +764,7 @@ export const POKEMONS: Pokemon[] = [
     def: 80,
     speed: 95,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/059.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/059.png",
     types: ["Feu"],
     created: new Date()
   },
@@ -718,6 +777,7 @@ export const POKEMONS: Pokemon[] = [
     def: 40,
     speed: 90,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/060.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/060.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -730,6 +790,7 @@ export const POKEMONS: Pokemon[] = [
     def: 65,
     speed: 90,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/061.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/061.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -742,6 +803,7 @@ export const POKEMONS: Pokemon[] = [
     def: 95,
     speed: 70,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/062.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/062.png",
     types: ["Eau", "Combat"],
     created: new Date()
   },
@@ -754,6 +816,7 @@ export const POKEMONS: Pokemon[] = [
     def: 15,
     speed: 90,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/063.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/063.png",
     types: ["Psy"],
     created: new Date()
   },
@@ -766,6 +829,7 @@ export const POKEMONS: Pokemon[] = [
     def: 30,
     speed: 105,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/064.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/064.png",
     types: ["Psy"],
     created: new Date()
   },
@@ -778,6 +842,7 @@ export const POKEMONS: Pokemon[] = [
     def: 45,
     speed: 120,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/065.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/065.png",
     types: ["Psy"],
     created: new Date()
   },
@@ -790,6 +855,7 @@ export const POKEMONS: Pokemon[] = [
     def: 50,
     speed: 35,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/066.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/066.png",
     types: ["Combat"],
     created: new Date()
   },
@@ -802,6 +868,7 @@ export const POKEMONS: Pokemon[] = [
     def: 70,
     speed: 45,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/067.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/067.png",
     types: ["Combat"],
     created: new Date()
   },
@@ -814,6 +881,7 @@ export const POKEMONS: Pokemon[] = [
     def: 80,
     speed: 55,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/068.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/068.png",
     types: ["Combat"],
     created: new Date()
   },
@@ -826,6 +894,7 @@ export const POKEMONS: Pokemon[] = [
     def: 35,
     speed: 40,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/069.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/069.png",
     types: ["Plante"],
     created: new Date()
   },
@@ -838,6 +907,7 @@ export const POKEMONS: Pokemon[] = [
     def: 50,
     speed: 55,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/070.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/070.png",
     types: ["Plante"],
     created: new Date()
   },
@@ -850,6 +920,7 @@ export const POKEMONS: Pokemon[] = [
     def: 65,
     speed: 70,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/071.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/071.png",
     types: ["Plante"],
     created: new Date()
   },
@@ -862,6 +933,7 @@ export const POKEMONS: Pokemon[] = [
     def: 35,
     speed: 70,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/072.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/072.png",
     types: ["Eau", "Poison"],
     created: new Date()
   },
@@ -874,6 +946,7 @@ export const POKEMONS: Pokemon[] = [
     def: 65,
     speed: 100,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/073.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/073.png",
     types: ["Eau", "Poison"],
     created: new Date()
   },
@@ -886,6 +959,7 @@ export const POKEMONS: Pokemon[] = [
     def: 100,
     speed: 20,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/074.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/074.png",
     types: ["Roche", "Sol"],
     created: new Date()
   },
@@ -898,6 +972,7 @@ export const POKEMONS: Pokemon[] = [
     def: 115,
     speed: 35,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/075.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/075.png",
     types: ["Roche", "Sol"],
     created: new Date()
   },
@@ -910,6 +985,7 @@ export const POKEMONS: Pokemon[] = [
     def: 130,
     speed: 45,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/076.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/076.png",
     types: ["Roche", "Sol"],
     created: new Date()
   },
@@ -922,6 +998,7 @@ export const POKEMONS: Pokemon[] = [
     def: 55,
     speed: 90,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/077.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/077.png",
     types: ["Feu"],
     created: new Date()
   },
@@ -934,6 +1011,7 @@ export const POKEMONS: Pokemon[] = [
     def: 70,
     speed: 105,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/078.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/078.png",
     types: ["Feu"],
     created: new Date()
   },
@@ -946,6 +1024,7 @@ export const POKEMONS: Pokemon[] = [
     def: 65,
     speed: 15,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/079.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/079.png",
     types: ["Eau", "Psy"],
     created: new Date()
   },
@@ -958,6 +1037,7 @@ export const POKEMONS: Pokemon[] = [
     def: 110,
     speed: 30,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/080.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/080.png",
     types: ["Eau", "Psy"],
     created: new Date()
   },
@@ -970,6 +1050,7 @@ export const POKEMONS: Pokemon[] = [
     def: 70,
     speed: 45,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/081.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/081.png",
     types: ["Electrik", "Acier"],
     created: new Date()
   },
@@ -982,6 +1063,7 @@ export const POKEMONS: Pokemon[] = [
     def: 95,
     speed: 70,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/082.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/082.png",
     types: ["Electrik", "Acier"],
     created: new Date()
   },
@@ -994,6 +1076,7 @@ export const POKEMONS: Pokemon[] = [
     def: 55,
     speed: 60,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/083.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/083.png",
     types: ["Normal", "Vol"],
     created: new Date()
   },
@@ -1006,6 +1089,7 @@ export const POKEMONS: Pokemon[] = [
     def: 45,
     speed: 75,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/084.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/084.png",
     types: ["Normal", "Vol"],
     created: new Date()
   },
@@ -1018,6 +1102,7 @@ export const POKEMONS: Pokemon[] = [
     def: 70,
     speed: 110,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/085.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/085.png",
     types: ["Normal", "Vol"],
     created: new Date()
   },
@@ -1030,6 +1115,7 @@ export const POKEMONS: Pokemon[] = [
     def: 55,
     speed: 45,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/086.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/086.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -1042,6 +1128,7 @@ export const POKEMONS: Pokemon[] = [
     def: 80,
     speed: 70,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/087.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/087.png",
     types: ["Eau", "Glace"],
     created: new Date()
   },
@@ -1054,6 +1141,7 @@ export const POKEMONS: Pokemon[] = [
     def: 50,
     speed: 25,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/088.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/088.png",
     types: ["Poison"],
     created: new Date()
   },
@@ -1066,6 +1154,7 @@ export const POKEMONS: Pokemon[] = [
     def: 75,
     speed: 50,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/089.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/089.png",
     types: ["Poison"],
     created: new Date()
   },
@@ -1078,6 +1167,7 @@ export const POKEMONS: Pokemon[] = [
     def: 100,
     speed: 40,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/090.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/090.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -1090,6 +1180,7 @@ export const POKEMONS: Pokemon[] = [
     def: 180,
     speed: 70,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/091.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/091.png",
     types: ["Eau", "Glace"],
     created: new Date()
   },
@@ -1102,6 +1193,7 @@ export const POKEMONS: Pokemon[] = [
     def: 30,
     speed: 80,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/092.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/092.png",
     types: ["Spectre", "Poison"],
     created: new Date()
   },
@@ -1114,6 +1206,7 @@ export const POKEMONS: Pokemon[] = [
     def: 45,
     speed: 95,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/093.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/093.png",
     types: ["Spectre", "Poison"],
     created: new Date()
   },
@@ -1126,6 +1219,7 @@ export const POKEMONS: Pokemon[] = [
     def: 60,
     speed: 110,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/094.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/094.png",
     types: ["Spectre", "Poison"],
     created: new Date()
   },
@@ -1138,6 +1232,7 @@ export const POKEMONS: Pokemon[] = [
     def: 160,
     speed: 70,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/095.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/095.png",
     types: ["Roche", "Sol"],
     created: new Date()
   },
@@ -1150,6 +1245,7 @@ export const POKEMONS: Pokemon[] = [
     def: 45,
     speed: 42,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/096.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/096.png",
     types: ["Psy"],
     created: new Date()
   },
@@ -1162,6 +1258,7 @@ export const POKEMONS: Pokemon[] = [
     def: 70,
     speed: 67,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/097.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/097.png",
     types: ["Psy"],
     created: new Date()
   },
@@ -1174,6 +1271,7 @@ export const POKEMONS: Pokemon[] = [
     def: 90,
     speed: 50,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/098.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/098.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -1186,6 +1284,7 @@ export const POKEMONS: Pokemon[] = [
     def: 115,
     speed: 75,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/099.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/099.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -1198,6 +1297,7 @@ export const POKEMONS: Pokemon[] = [
     def: 50,
     speed: 100,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/100.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/100.png",
     types: ["Electrik"],
     created: new Date()
   },
@@ -1210,6 +1310,7 @@ export const POKEMONS: Pokemon[] = [
     def: 70,
     speed: 150,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/101.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/101.png",
     types: ["Electrik"],
     created: new Date()
   },
@@ -1222,6 +1323,7 @@ export const POKEMONS: Pokemon[] = [
     def: 80,
     speed: 40,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/102.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/102.png",
     types: ["Plante", "Psy"],
     created: new Date()
   },
@@ -1234,6 +1336,7 @@ export const POKEMONS: Pokemon[] = [
     def: 85,
     speed: 55,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/103.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/103.png",
     types: ["Plante", "Psy"],
     created: new Date()
   },
@@ -1246,6 +1349,7 @@ export const POKEMONS: Pokemon[] = [
     def: 95,
     speed: 35,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/104.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/104.png",
     types: ["Sol"],
     created: new Date()
   },
@@ -1258,6 +1362,7 @@ export const POKEMONS: Pokemon[] = [
     def: 110,
     speed: 45,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/105.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/105.png",
     types: ["Sol"],
     created: new Date()
   },
@@ -1270,6 +1375,7 @@ export const POKEMONS: Pokemon[] = [
     def: 53,
     speed: 87,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/106.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/106.png",
     types: ["Combat"],
     created: new Date()
   },
@@ -1282,6 +1388,7 @@ export const POKEMONS: Pokemon[] = [
     def: 79,
     speed: 76,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/107.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/107.png",
     types: ["Combat"],
     created: new Date()
   },
@@ -1294,6 +1401,7 @@ export const POKEMONS: Pokemon[] = [
     def: 75,
     speed: 30,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/108.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/108.png",
     types: ["Normal"],
     created: new Date()
   },
@@ -1306,6 +1414,7 @@ export const POKEMONS: Pokemon[] = [
     def: 95,
     speed: 35,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/109.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/109.png",
     types: ["Poison"],
     created: new Date()
   },
@@ -1318,6 +1427,7 @@ export const POKEMONS: Pokemon[] = [
     def: 120,
     speed: 60,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/110.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/110.png",
     types: ["Poison"],
     created: new Date()
   },
@@ -1330,6 +1440,7 @@ export const POKEMONS: Pokemon[] = [
     def: 95,
     speed: 25,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/111.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/111.png",
     types: ["Sol", "Roche"],
     created: new Date()
   },
@@ -1342,6 +1453,7 @@ export const POKEMONS: Pokemon[] = [
     def: 120,
     speed: 40,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/112.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/112.png",
     types: ["Sol", "Roche"],
     created: new Date()
   },
@@ -1354,6 +1466,7 @@ export const POKEMONS: Pokemon[] = [
     def: 5,
     speed: 50,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/113.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/113.png",
     types: ["Normal"],
     created: new Date()
   },
@@ -1366,6 +1479,7 @@ export const POKEMONS: Pokemon[] = [
     def: 115,
     speed: 60,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/114.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/114.png",
     types: ["Plante"],
     created: new Date()
   },
@@ -1378,6 +1492,7 @@ export const POKEMONS: Pokemon[] = [
     def: 80,
     speed: 90,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/115.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/115.png",
     types: ["Normal"],
     created: new Date()
   },
@@ -1390,6 +1505,7 @@ export const POKEMONS: Pokemon[] = [
     def: 70,
     speed: 60,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/116.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/116.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -1402,6 +1518,7 @@ export const POKEMONS: Pokemon[] = [
     def: 95,
     speed: 85,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/117.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/117.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -1414,6 +1531,7 @@ export const POKEMONS: Pokemon[] = [
     def: 60,
     speed: 63,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/118.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/118.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -1426,6 +1544,7 @@ export const POKEMONS: Pokemon[] = [
     def: 65,
     speed: 68,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/119.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/119.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -1438,6 +1557,7 @@ export const POKEMONS: Pokemon[] = [
     def: 55,
     speed: 85,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/120.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/120.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -1450,6 +1570,7 @@ export const POKEMONS: Pokemon[] = [
     def: 85,
     speed: 115,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/121.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/121.png",
     types: ["Eau", "Psy"],
     created: new Date()
   },
@@ -1462,6 +1583,7 @@ export const POKEMONS: Pokemon[] = [
     def: 65,
     speed: 90,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/122.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/122.png",
     types: ["Psy", "Fée"],
     created: new Date()
   },
@@ -1474,6 +1596,7 @@ export const POKEMONS: Pokemon[] = [
     def: 80,
     speed: 105,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/123.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/123.png",
     types: ["Insecte", "Vol"],
     created: new Date()
   },
@@ -1486,6 +1609,7 @@ export const POKEMONS: Pokemon[] = [
     def: 35,
     speed: 95,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/124.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/124.png",
     types: ["Glace", "Psy"],
     created: new Date()
   },
@@ -1498,6 +1622,7 @@ export const POKEMONS: Pokemon[] = [
     def: 57,
     speed: 105,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/125.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/125.png",
     types: ["Electrik"],
     created: new Date()
   },
@@ -1510,6 +1635,7 @@ export const POKEMONS: Pokemon[] = [
     def: 57,
     speed: 93,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/126.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/126.png",
     types: ["Feu"],
     created: new Date()
   },
@@ -1522,6 +1648,7 @@ export const POKEMONS: Pokemon[] = [
     def: 100,
     speed: 85,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/127.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/127.png",
     types: ["Insecte"],
     created: new Date()
   },
@@ -1534,6 +1661,7 @@ export const POKEMONS: Pokemon[] = [
     def: 95,
     speed: 110,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/128.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/128.png",
     types: ["Normal"],
     created: new Date()
   },
@@ -1546,6 +1674,7 @@ export const POKEMONS: Pokemon[] = [
     def: 55,
     speed: 80,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/129.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/129.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -1558,6 +1687,7 @@ export const POKEMONS: Pokemon[] = [
     def: 79,
     speed: 81,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/130.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/130.png",
     types: ["Eau", "Vol"],
     created: new Date()
   },
@@ -1570,6 +1700,7 @@ export const POKEMONS: Pokemon[] = [
     def: 80,
     speed: 60,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/131.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/131.png",
     types: ["Eau", "Glace"],
     created: new Date()
   },
@@ -1582,6 +1713,7 @@ export const POKEMONS: Pokemon[] = [
     def: 48,
     speed: 48,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/132.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/132.png",
     types: ["Normal"],
     created: new Date()
   },
@@ -1594,6 +1726,7 @@ export const POKEMONS: Pokemon[] = [
     def: 50,
     speed: 55,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/133.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/133.png",
     types: ["Normal"],
     created: new Date()
   },
@@ -1606,6 +1739,7 @@ export const POKEMONS: Pokemon[] = [
     def: 60,
     speed: 65,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/134.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/134.png",
     types: ["Eau"],
     created: new Date()
   },
@@ -1618,6 +1752,7 @@ export const POKEMONS: Pokemon[] = [
     def: 60,
     speed: 130,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/135.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/135.png",
     types: ["Electrik"],
     created: new Date()
   },
@@ -1630,6 +1765,7 @@ export const POKEMONS: Pokemon[] = [
     def: 60,
     speed: 65,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/136.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/136.png",
     types: ["Feu"],
     created: new Date()
   },
@@ -1642,6 +1778,7 @@ export const POKEMONS: Pokemon[] = [
     def: 70,
     speed: 40,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/137.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/137.png",
     types: ["Normal"],
     created: new Date()
   },
@@ -1654,6 +1791,7 @@ export const POKEMONS: Pokemon[] = [
     def: 100,
     speed: 35,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/138.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/138.png",
     types: ["Roche", "Eau"],
     created: new Date()
   },
@@ -1666,6 +1804,7 @@ export const POKEMONS: Pokemon[] = [
     def: 125,
     speed: 55,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/139.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/139.png",
     types: ["Roche", "Eau"],
     created: new Date()
   },
@@ -1678,6 +1817,7 @@ export const POKEMONS: Pokemon[] = [
     def: 90,
     speed: 55,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/140.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/140.png",
     types: ["Roche", "Eau"],
     created: new Date()
   },
@@ -1690,6 +1830,7 @@ export const POKEMONS: Pokemon[] = [
     def: 105,
     speed: 80,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/141.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/141.png",
     types: ["Roche", "Eau"],
     created: new Date()
   },
@@ -1702,6 +1843,7 @@ export const POKEMONS: Pokemon[] = [
     def: 65,
     speed: 130,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/142.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/142.png",
     types: ["Roche", "Vol"],
     created: new Date()
   },
@@ -1714,6 +1856,7 @@ export const POKEMONS: Pokemon[] = [
     def: 65,
     speed: 30,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/143.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/143.png",
     types: ["Normal"],
     created: new Date()
   },
@@ -1726,6 +1869,7 @@ export const POKEMONS: Pokemon[] = [
     def: 100,
     speed: 85,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/144.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/144.png",
     types: ["Glace", "Vol"],
     created: new Date()
   },
@@ -1738,6 +1882,7 @@ export const POKEMONS: Pokemon[] = [
     def: 85,
     speed: 100,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/145.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/145.png",
     types: ["Electrik", "Vol"],
     created: new Date()
   },
@@ -1750,6 +1895,7 @@ export const POKEMONS: Pokemon[] = [
     def: 90,
     speed: 90,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/146.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/146.png",
     types: ["Feu", "Vol"],
     created: new Date()
   },
@@ -1762,6 +1908,7 @@ export const POKEMONS: Pokemon[] = [
     def: 45,
     speed: 50,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/147.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/147.png",
     types: ["Dragon"],
     created: new Date()
   },
@@ -1774,6 +1921,7 @@ export const POKEMONS: Pokemon[] = [
     def: 65,
     speed: 70,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/148.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/148.png",
     types: ["Dragon"],
     created: new Date()
   },
@@ -1786,6 +1934,7 @@ export const POKEMONS: Pokemon[] = [
     def: 95,
     speed: 80,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/149.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/149.png",
     types: ["Dragon", "Vol"],
     created: new Date()
   },
@@ -1798,6 +1947,7 @@ export const POKEMONS: Pokemon[] = [
     def: 90,
     speed: 130,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/150.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/150.png",
     types: ["Psy"],
     created: new Date()
   },
@@ -1810,6 +1960,7 @@ export const POKEMONS: Pokemon[] = [
     def: 100,
     speed: 100,
     picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/151.png",
+    miniature: "https://www.pokemontrash.com/pokedex/images/minixy/151.png",
     types: ["Psy"],
     created: new Date()
   }];
