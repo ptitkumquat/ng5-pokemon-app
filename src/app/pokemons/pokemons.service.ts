@@ -17,9 +17,13 @@ export class PokemonsService {
 
         for (let index = 0; index < pokemons.length; index++) {
             if (id === pokemons[index].id) {
-                return pokemons[index];
+                return this.clonePokemon(pokemons[index]);
             }
         }
+    }
+
+    clonePokemon(pokemon: Pokemon): Pokemon{
+        return Object.assign({}, pokemon);
     }
 
     

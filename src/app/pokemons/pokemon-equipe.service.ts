@@ -20,6 +20,7 @@ selectPokemon(pokemon: Pokemon) {
 
   addPokemon(pokemon: Pokemon) {
     if (this.equipe.length < 6) {
+      pokemon.hp = pokemon.hpMax;
       this.equipe.push(pokemon);
     }
     else {
@@ -41,7 +42,7 @@ selectPokemon(pokemon: Pokemon) {
 
     generatePokemon(){
       do{
-        var id = Math.floor(Math.random()*150+1);
+        var id = Math.floor(Math.random()*151+1);
       } while(this.equipe.find((pokemon) => pokemon.id === id))
       this.addPokemon(this.pokemonsService.getPokemon(id));
     }

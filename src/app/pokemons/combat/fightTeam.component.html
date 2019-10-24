@@ -1,13 +1,14 @@
 <div class="container">
     <div class="row">
-        <button class="fight" (click)="fullCombat()">
+            <button class="fight" (click)="fullCombat()">
 
-            Combat !
+                Combat !
 
-        </button>
-        <button class="fight" (click)="beginFight()">
-            New combat
-        </button>
+            </button>
+            <button class="fight" (click)="beginFight()">
+                New combat
+            </button>
+            <a href="#"> Accueil </a>
     </div>
     <div class="row">
         <h3 class="center">Mon équipe de combat :</h3>
@@ -46,9 +47,9 @@
                     <div class="card-content">
                         <p>{{ pokemon.id }}. {{ pokemon.name }}</p>
                         <div class="progress">
-                                <div class="determinate" [ngStyle]="{
+                            <div class="determinate" [ngStyle]="{
                                         'width': progress(pokemon) }"></div>
-                            </div>
+                        </div>
                         <span *ngFor="let type of pokemon.types" class="{{ type | pokemonTypeColor }}">
                             {{ type }}</span>
                     </div>

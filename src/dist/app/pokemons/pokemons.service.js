@@ -20,9 +20,12 @@ var PokemonsService = /** @class */ (function () {
         var pokemons = this.getPokemons();
         for (var index = 0; index < pokemons.length; index++) {
             if (id === pokemons[index].id) {
-                return pokemons[index];
+                return this.clonePokemon(pokemons[index]);
             }
         }
+    };
+    PokemonsService.prototype.clonePokemon = function (pokemon) {
+        return Object.assign({}, pokemon);
     };
     PokemonsService = __decorate([
         core_1.Injectable()

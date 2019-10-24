@@ -24,6 +24,7 @@ var PokemonEquipeService = /** @class */ (function () {
     };
     PokemonEquipeService.prototype.addPokemon = function (pokemon) {
         if (this.equipe.length < 6) {
+            pokemon.hp = pokemon.hpMax;
             this.equipe.push(pokemon);
         }
         else {
@@ -42,7 +43,7 @@ var PokemonEquipeService = /** @class */ (function () {
     };
     PokemonEquipeService.prototype.generatePokemon = function () {
         do {
-            var id = Math.floor(Math.random() * 150 + 1);
+            var id = Math.floor(Math.random() * 151 + 1);
         } while (this.equipe.find(function (pokemon) { return pokemon.id === id; }));
         this.addPokemon(this.pokemonsService.getPokemon(id));
     };

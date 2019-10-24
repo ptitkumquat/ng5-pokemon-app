@@ -115,14 +115,17 @@ var FightTeamComponent = /** @class */ (function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
-                        if (!(this.equipe.length > 0 && this.equipeAdv.length > 0)) return [3 /*break*/, 2];
-                        return [4 /*yield*/, this.sleep(2000)];
+                        this.compteur = 0;
+                        _a.label = 1;
                     case 1:
+                        if (!(this.equipe.length > 0 && this.equipeAdv.length > 0)) return [3 /*break*/, 3];
+                        return [4 /*yield*/, this.sleep(2000)];
+                    case 2:
                         _a.sent();
                         this.combat(this.equipe[0], this.equipeAdv[0]);
                         this.removeKo();
-                        return [3 /*break*/, 0];
-                    case 2:
+                        return [3 /*break*/, 1];
+                    case 3:
                         if (this.equipe.length == 0) {
                             this.winner = this.equipe;
                         }

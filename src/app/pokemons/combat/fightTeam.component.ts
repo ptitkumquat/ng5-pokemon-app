@@ -21,6 +21,7 @@ export class FightTeamComponent implements OnInit {
   private compteur: number;
   private winner: Pokemon[];
   private coeff: number[] = [];
+  private pokemon: Pokemon;
 
   constructor(
     private pokemonEquipeService: PokemonEquipeService,
@@ -78,6 +79,7 @@ export class FightTeamComponent implements OnInit {
   }
 
   async fullCombat() {
+    this.compteur = 0;
     while (this.equipe.length > 0 && this.equipeAdv.length > 0) {
       await this.sleep(2000);
       this.combat(this.equipe[0], this.equipeAdv[0]);
